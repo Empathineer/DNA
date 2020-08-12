@@ -5,23 +5,8 @@
 Lavender
 </code></pre></div></div>
 
-<h2 id="getting-started"><a data-id="" href="#getting-started">Getting Started</a></h2>
-
-<p>Here’s how to download this problem into your own CS50 IDE. Log into <a href="https://ide.cs50.io/">CS50 IDE</a> and then, in a terminal window, execute each of the below.</p>
-
-<ul class="fa-ul">
-  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">cd</code> to ensure that you’re in <code class="highlighter-rouge">~/</code> (i.e., your home directory, aka <code class="highlighter-rouge">~</code>).</li>
-  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>If you haven’t already, execute <code class="highlighter-rouge">mkdir pset6</code> to make (i.e., create) a directory called <code class="highlighter-rouge">pset6</code> in your home directory.</li>
-  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">cd pset6</code> to change into (i.e., open) that directory.</li>
-  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">wget https://cdn.cs50.net/2019/fall/psets/6/dna/dna.zip</code> to download a (compressed) ZIP file with this problem’s distribution.</li>
-  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">unzip dna.zip</code> to uncompress that file.</li>
-  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">rm dna.zip</code> followed by <code class="highlighter-rouge">yes</code> or <code class="highlighter-rouge">y</code> to delete that ZIP file.</li>
-  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">ls</code>. You should see a directory called <code class="highlighter-rouge">dna</code>, which was inside of that ZIP file.</li>
-  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">cd dna</code> to change into that directory.</li>
-  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">ls</code>. You should see a directory of sample <code class="highlighter-rouge">databases</code> and a directory of sample <code class="highlighter-rouge">sequences</code>.</li>
-</ul>
-
 <h2 id="background"><a data-id="" href="#background">Background</a></h2>
+
 
 <p>DNA, the carrier of genetic information in living things, has been used in criminal justice for decades. But how, exactly, does DNA profiling work? Given a sequence of DNA, how can forensic investigators identify to whom it belongs?</p>
 
@@ -89,6 +74,23 @@ Usage: python dna.py data.csv sequence.txt
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ python dna.py data.csv
 Usage: python dna.py data.csv sequence.txt
 </code></pre></div></div>
+
+<h2 id="getting-started"><a data-id="" href="#getting-started">Getting Started</a></h2>
+
+<p>Here’s how to download this problem into your own CS50 IDE. Log into <a href="https://ide.cs50.io/">CS50 IDE</a> and then, in a terminal window, execute each of the below.</p>
+
+<ul class="fa-ul">
+  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">cd</code> to ensure that you’re in <code class="highlighter-rouge">~/</code> (i.e., your home directory, aka <code class="highlighter-rouge">~</code>).</li>
+  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>If you haven’t already, execute <code class="highlighter-rouge">mkdir pset6</code> to make (i.e., create) a directory called <code class="highlighter-rouge">pset6</code> in your home directory.</li>
+  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">cd pset6</code> to change into (i.e., open) that directory.</li>
+  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">wget https://cdn.cs50.net/2019/fall/psets/6/dna/dna.zip</code> to download a (compressed) ZIP file with this problem’s distribution.</li>
+  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">unzip dna.zip</code> to uncompress that file.</li>
+  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">rm dna.zip</code> followed by <code class="highlighter-rouge">yes</code> or <code class="highlighter-rouge">y</code> to delete that ZIP file.</li>
+  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">ls</code>. You should see a directory called <code class="highlighter-rouge">dna</code>, which was inside of that ZIP file.</li>
+  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">cd dna</code> to change into that directory.</li>
+  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">ls</code>. You should see a directory of sample <code class="highlighter-rouge">databases</code> and a directory of sample <code class="highlighter-rouge">sequences</code>.</li>
+</ul>
+
 
 <h2 id="hints"><a data-id="" href="#hints">Hints</a></h2>
 
