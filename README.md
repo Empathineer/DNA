@@ -1,5 +1,5 @@
 <h1 id="dna"><a data-id="" href="#dna">DNA</a></h1>
-<p>Implement a program that identifies a person based on their DNA, per the below.</p>
+<p>Implement a program that identifies a person based on their DNA, per the criteria below.</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ python dna.py databases/large.csv sequences/5.txt
 Lavender
